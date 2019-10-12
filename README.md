@@ -5,12 +5,12 @@
 </p>
 <div align="center">
   <h1>Guitar Zone API</h1>
-  <h3>API created with PostgreSQL, Sequelize ORM, Node.js, and Express.</h3>
+  <h3>A RESTful API created with the PostgreSQL open-source relational database and Sequelize ORM for use with Node.js and Express.</h3>
 </div>
 
 ## About Guitar Zone API
 
-Guitar Zone API was created with the PostgreSQL open-source relational database and the Sequelize ORM for use with Node.js and Express.
+Guitar Zone API is a RESTful API created with the PostgreSQL open-source relational database and Sequelize ORM for use with Node.js and Express.
 
 ## To Set Up Locally
 You can take all the files of this site and run them on your computer as if it were live online, only it's just on your machine.
@@ -22,6 +22,7 @@ You can take all the files of this site and run them on your computer as if it w
 * [Express](https://expressjs.com)
 * [Sequelize](https://sequelize.org)
 * [PostgreSQL](https://www.postgresql.org)
+* [EJS](https://ejs.co)
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 ```
