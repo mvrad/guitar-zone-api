@@ -1,11 +1,8 @@
 const express = require("express"),
   routes = require("./routes/index"),
+  models = require("./models"),
   bodyParser = require("body-parser"),
-  Sequelize = require('sequelize'),
-  sequelize = new Sequelize('database', 'username', 'password', {
-    dialect: 'postgres'
-  }),
-  PORT = 3000,
+  PORT = process.env.PORT || 3000,
   app = express();
 
 // Parse incoming requests
