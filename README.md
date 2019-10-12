@@ -23,6 +23,7 @@ You can take all the files of this site and run them on your computer as if it w
 * [Sequelize](https://sequelize.org)
 * [PostgreSQL](https://www.postgresql.org)
 * [EJS](https://ejs.co)
+* [Nodemon](https://nodemon.io)
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 ```
@@ -30,9 +31,13 @@ git clone https://github.com/mvrad/guitar-zone-api.git
 ```
 Then open the files in a text editor such as [Visual Studio Code](https://code.visualstudio.com/) and in the terminal type:
 ```bash
-npm install
+npm i
 ```
-To install all of the project's dependencies. Then cd into the project's directory and start the application:
+To install all of the project's dependencies. Then, after installing nodemon globally:
+```bash
+npm i -g nodemon
+```
+cd into the project's directory and start the application:
 ```bash
 cd guitar-zone-api
 nodemon
