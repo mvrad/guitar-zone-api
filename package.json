@@ -1,0 +1,20 @@
+{
+  "name": "guitar-zone-api",
+  "version": "1.0.0",
+  "description": "API created with PostgreSQL, Sequelize ORM, Node.js, and Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvrad/guitar-zone-api.git"
+  },
+  "author": "Matt Conrad (mconrad.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvrad/guitar-zone-api/issues"
+  },
+  "homepage": "https://github.com/mvrad/guitar-zone-api#readme"
+}
