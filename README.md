@@ -44,5 +44,31 @@ nodemon
 ```
 You should now be able to visit localhost:3000 in your browser.
 
+## Usage
+
+The following examples were created in [Postman](https://www.getpostman.com).
+
+### Example POST
+
+<div align="center">
+  <img alt="POST 1" src="public/img/post-1.png" height="auto" width="100%" />
+</div>
+
+<div align="center">
+  <img alt="POST 2" src="public/img/post-2.png" height="auto" width="100%" />
+</div>
+
+### Example PUT
+
+<div align="center">
+  <img alt="POST 1" src="public/img/put.png" height="auto" width="100%" />
+</div>
+
+### Example DELETE
+
+<div align="center">
+  <img alt="POST 1" src="public/img/delete.png" height="auto" width="100%" />
+</div>
+
 ## License
 Guitar Zone API is licensed under the [MIT license](https://github.com/mvrad/guitar-zone-api/blob/master/LICENSE).

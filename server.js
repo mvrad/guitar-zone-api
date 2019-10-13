@@ -1,6 +1,7 @@
 const express = require("express"),
   routes = require("./routes/index"),
-  models = require("./models"),
+  guitars = require('./models/guitars'),
+  db = require("./models/index"),
   bodyParser = require("body-parser"),
   PORT = process.env.PORT || 3000,
   app = express();
@@ -18,6 +19,7 @@ app.set("views", __dirname + "/views");
 
 // Include routes
 app.use("/", routes);
+app.use("/guitars", guitars);
 
 // Listen on port 3000
 app.listen(PORT, () => {
